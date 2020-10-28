@@ -29,7 +29,8 @@ end
 def return_string_array(cats)
   count = 0
   while count < cats.length do
-    new_array.push(cats[count].to_s)
+    cats[count].to_s 
     count += 1 
   end
+  new_array
 end
