@@ -26,5 +26,10 @@ def output_array(cats)
   end
 end
 
-def return_string_array
-
+def return_string_array(cats)
+  count = 0
+  while count < cats.length do
+    cats[count].to_s 
+    count += 1 
+  end
+end
