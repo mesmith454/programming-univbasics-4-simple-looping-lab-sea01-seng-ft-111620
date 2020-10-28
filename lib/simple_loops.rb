@@ -1,5 +1,6 @@
 message = "Hello"
 limit = 5
+cats = ["snowshoe", "tabby", "bengal", "tuxedo"]
 
 def loop_message_five_times(message)
   count = 0 
@@ -17,3 +18,10 @@ def loop_message_n_times(message, limit)
   end
 end
 
+def output_array(cats)
+  count = 0 
+  while count < array.length do
+    puts cats[count]
+    count += 1 
+  end
+end
