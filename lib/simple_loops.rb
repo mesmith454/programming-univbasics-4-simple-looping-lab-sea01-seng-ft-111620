@@ -20,7 +20,7 @@ end
 
 def output_array(cats)
   count = 0 
-  while count < array.length do
+  while count < cats.length do
     puts cats[count]
     count += 1 
   end
